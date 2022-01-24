@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <style></style>
+  <link rel="stylesheet" href="index.css">
+  <script type="text/javascript">
+
+  </script>
+
+</head>
+
+<body>
+  <main>
+  <div class="banner">
+    <nav>
+	<p>Reservation &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;</p>
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="#">About Us</a>
+				<ul>
+					<li><a href="venues.html">Venues</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+					<li><a href="events.html">Events</a></li>
+          <li><a href="menu.html">Menu</a></li>
+      		<li><a href="gallery.html">Gallery</a></li>
+				</ul>
+		</li>
+    <li><a href="reservation.html">Reservation</a></li>
+    <li><a href="https://twitter.com/"><img src="twitter.png" height="20" width="20" alt="Twitter"></a></li>
+    <li><a href="https://www.facebook.com/"><img src="facebook.png" height="20" width="20" alt="Facebook"></a></li>
+    <li><a href="https://www.instagram.com/"><img src="instagram.png" height="20" width="20" alt="Instagram"></a></li>
+	</ul>
+</nav>
+
+<div class="reservationForm">
+<div class="mainImage">
+  <img src="indexImage.jpeg" alt="indexImage" style="width: 100%; height: 760px;">
+  <form id="reservationFormDetails" action="#" method="post">
+
+    <div class="guestDetails">
+      <label for="name">Full Name:</label>
+        <input type="text" id="name" name="guestName" placeholder="Type your name here..." required><br><br>
+      <label for="email">E-mail:</label>
+        <input type="email" id="email" name="guestEmail" placeholder="example@gmail.com" required><br><br>
+      <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="guestTel" placeholder="07498746553" required><br><br>
+    </div>
+
+    <div class="reservationDetails">
+      <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guestNumber" id="guestNumber" min="1" max="500" required><br><br>
+      <label for="date">Date:</label>
+        <input type="date" id="date" name="dateOfReservation" required> <br><br>
+      <label for="time">Time:</label>
+        <input type="time" id="time" name="timeSlots" min="09:00" max="21:00" required>
+    </div>
+
+    <div class="requestTextArea">
+      <textarea name="textAreaRequestForm" rows="5" cols="80" placeholder="If you have any special requests, please type them in here..."></textarea><br><br>
+    </div>
+
+    <div class="submitReservation">
+      <input type="submit" name="submitButton" value="Submit">
+    </div>
+
+  </form>
+</div>
+</div>
+</main>
+
+<footer style="position: relative; bottom: 0px; width: 100%; height: 35px; background-color: white; ">
+  <div class="footer">
+    <ul>
+      <li><a href="#">Menu</a></li>
+      <li><a href="#">Gallery</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Venues</a></li>
+      <li><a href="#">Contact Us</a></li>
+      <li><a href="#">Sitemap</a></li>
+      <li><a href="#">Privacy Policy</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+
+</html>
